@@ -2,7 +2,8 @@
 module.exports = {
   content: [
     './src/**/*.{js,jsx,ts,tsx}',
-  ],
+],
+mode: "jit",
   theme: {
     extend: {
       colors:{
@@ -18,7 +19,7 @@ module.exports = {
       xs:"480px",
       sm:"768px",
       md:"1060",
-    }
+    },
   },
   plugins: [],
 }
