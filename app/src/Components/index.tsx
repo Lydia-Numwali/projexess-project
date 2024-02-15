@@ -5,7 +5,7 @@ type Props = {}
 
 const index = (props: Props) => {
   return (
-    <div>Navbaer</div>
+    <div>Navbar</div>
   )
 }
 

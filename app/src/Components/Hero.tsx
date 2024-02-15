@@ -6,8 +6,8 @@ import ellipse4 from '../assets/Ellipse 4.svg'
 import ellipse5 from '../assets/Ellipse 5.svg'
 import ellipse6 from '../assets/Ellipse 6.svg'
 import ellipse7 from '../assets/Ellipse 7.svg'
-import Arrowleft from '../assets/icons/Arrow - Left.svg'
 import CustomButton from './CustomButton'
+import RoleSegment from './RoleSegment'
 
 
 const Hero = () => {
@@ -28,9 +28,13 @@ const Hero = () => {
         <p className="max-w-screen-lg mx-48 mt-8">Empowering Dreams, Building Futures, Your Bridge to Project Success . We're here to bridge the gap between dreams and reality, equipping project initiators with the guidance, resources, and expert support needed to ensure your initiatives flourish and make a meaningful impact on our communities</p>
       </div>
       <div className='flex items-center justify-center space-x-6 mt-8'>
-        <CustomButton label='Click Me ' textColor='#fff' bgColor='#3AA1FF' icon={Arrowleft}/>
-        <CustomButton label='Click Me' textColor='#3AA1FF' bgColor='#fff' icon={Arrowleft}/>
+        <CustomButton label='Click Me ' textColor='#fff' bgColor='#3AA1FF' borderColor='#fff'/>
+        <CustomButton label='Click Me' textColor='#3AA1FF' bgColor='#fff' borderColor='#3AA1FF'/>
         </div>
+        <div>
+          <p className='max-w-screen-lg mx-52 mt-12'>See different things that we deal with and what you can do with our platform.</p>
+        </div>
+        <RoleSegment/>
       </div>
         
     </div>
